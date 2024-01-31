@@ -6,7 +6,9 @@ export function Navbar() {
   return (
     <section className={style.navbar}>
       <div className={style.navbar__content}>
-        <img src={logo} alt="devForge logo" />
+        <Link to="hero" spy={true} smooth={true}>
+          <img src={logo} alt="devForge logo" />
+        </Link>
         <ul className={style.navbar__links}>
           <Link
             to="why"
