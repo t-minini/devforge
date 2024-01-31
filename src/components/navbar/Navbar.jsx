@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 
 export function Navbar() {
   return (
-    <section className={style.navbar}>
+    <nav className={style.navbar}>
       <div className={style.navbar__content}>
         <Link to="hero" spy={true} smooth={true}>
           <img src={logo} alt="devForge logo" />
@@ -53,6 +53,6 @@ export function Navbar() {
           </Link>
         </ul>
       </div>
-    </section>
+    </nav>
   );
 }
