@@ -28,7 +28,7 @@ html {
   overflow-y: scroll;
   /* color: var(--black); */
   scroll-behavior: smooth;
-  /* background-color: var(--black); */
+  background-color: red;
 }
 
 *,

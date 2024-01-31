@@ -1,5 +1,5 @@
 import style from './Navbar.module.css';
-import logo from './../../assets/images/logo.svg';
+import logo from './../../assets/images/navbar-logo.svg';
 import { Link } from 'react-scroll';
 
 export function Navbar() {
