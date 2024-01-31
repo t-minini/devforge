@@ -1,11 +1,23 @@
 :root {
   --black: #323232;
-  --white: #FFFFFF;
-  --orange-dark: #F04B37;
-  --orange-light: #F5783B;
-  --orange-lighter: #FAA43F;
-  --gradient-footer: linear-gradient(180deg, #F04B37 0%, #F5783B 70.5%, #FAA43F 100%);
-  /* --gradient-card: stroke: var(--gradient-card, #FAA43F); */
+  --white: #ffffff;
+  --orange-dark: #f04b37;
+  --orange-light: #f5783b;
+  --orange-lighter: #faa43f;
+  --gradient-footer: linear-gradient(
+    180deg,
+    #f04b37 0%,
+    #f5783b 70.5%,
+    #faa43f 100%
+  );
+  --gradient-card: linear-gradient(
+    0deg,
+    rgba(240, 75, 55, 1) 0%,
+    rgba(245, 120, 59, 1) 50%,
+    rgba(250, 164, 63, 1) 100%
+  );
+
+  --content-width: 1024px;
 }
 
 html {
