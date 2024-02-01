@@ -4,7 +4,7 @@
   padding-top: 9rem;
   align-items: center;
   justify-content: center;
-  background-color: var(--black);
+  background: var(--black);
 }
 
 .hero__content {
@@ -18,10 +18,10 @@
 
 .hero__content h1 {
   font-size: 9rem;
-  font-weight: 400;
   line-height: 6rem;
   color: var(--white);
   margin-bottom: 2rem;
+  font-weight: var(--regular-400);
 }
 
 .hero__link {
@@ -39,6 +39,7 @@
   transition: all 0.35s;
   border-radius: 0.5rem;
   justify-content: center;
+  font-weight: var(--light-300);
   border: 1px solid var(--orange-dark);
 }
 
