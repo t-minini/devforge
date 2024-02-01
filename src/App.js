@@ -13,8 +13,8 @@ function App() {
       <Navbar />
       <Hero />
       <Why />
-      <What />
       <Who />
+      <What />
       <Mission />
       <Footer />
     </>
