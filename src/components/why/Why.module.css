@@ -25,9 +25,10 @@
 }
 
 .why__cards {
-  gap: 2.9rem;
+  row-gap: 6rem;
   display: flex;
   flex-wrap: wrap;
+  column-gap: 9.7rem;
   justify-content: center;
 }
 
