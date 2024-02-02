@@ -8,7 +8,7 @@ export function Hero() {
       <div className={style.hero__content}>
         <h1>Welcome to</h1>
         <img src={heroLogo} alt="" />
-        <Link to="why" offset={-90} smooth={true} className={style.hero__link}>
+        <Link to="why" offset={-80} smooth={true} className={style.hero__link}>
           Learn Now
         </Link>
       </div>
