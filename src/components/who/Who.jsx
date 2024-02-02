@@ -9,9 +9,8 @@ export function Who() {
           <div className={style.who__card}>
             <h3>Beginners</h3>
             <p>
-              If you are new to programming or software development our
-              beginner-friendly courses provide a strong foundation to kickstart
-              your journey.
+              If you are new to programming our beginner-friendly courses
+              provide a strong foundation to kickstart your journey.
             </p>
           </div>
           <hr />
