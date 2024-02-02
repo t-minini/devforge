@@ -20,12 +20,12 @@
   font-size: 5.6rem;
   color: var(--black);
   line-height: 4.4rem;
-  margin-bottom: 6rem;
   font-weight: var(--light-300);
 }
 
 .content__left {
-  height: 31rem;
+  margin-top: 6rem;
+  height: 34rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -65,7 +65,7 @@
 }
 
 .left__img {
-  height: 31rem;
+  height: 34rem;
 }
 
 .left__img img {
@@ -75,7 +75,8 @@
 }
 
 .content__right {
-  height: 31rem;
+  margin-top: 6rem;
+  height: 34rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -115,7 +116,7 @@
 }
 
 .right__img img {
-  height: 31rem;
+  height: 34rem;
 }
 
 .right__img img {
