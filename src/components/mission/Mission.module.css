@@ -1,4 +1,33 @@
 .mission {
-  background-color: cornflowerblue;
-  height: 100dvh;
+  display: flex;
+  height: max-content;
+  justify-content: center;
+  background: var(--black);
+  padding-top: var(--padding-l);
+  padding-bottom: var(--padding-l);
+}
+
+.mission__content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: var(--content-width);
+}
+
+.mission__content h2 {
+  font-weight: 500;
+  font-size: 5.6rem;
+  line-height: 4.4rem;
+  margin-bottom: 6rem;
+  color: var(--white);
+  font-weight: var(--light-300);
+}
+
+.mission__content p {
+  width: 90%;
+  font-size: 1.8rem;
+  text-align: center;
+  color: var(--white);
+  font-weight: var(--light-300);
 }
