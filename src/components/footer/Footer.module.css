@@ -1,4 +1,38 @@
-.footer {
-  background-color: darkolivegreen;
+.contact {
+  display: flex;
   height: 100dvh;
+  justify-content: center;
+  padding-top: var(--padding-l);
+  /* padding-bottom: var(--padding-l); */
+  background: var(--gradient-footer);
+}
+
+.contact__content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: var(--content-width);
+  background-color: red;
+}
+
+.content__top {
+  /* width: 100%; */
+}
+
+.content__top h2 {
+  font-weight: 500;
+  font-size: 5.8rem;
+  line-height: 5.4rem;
+  color: var(--black);
+  margin-bottom: 1rem;
+}
+
+.content__top p {
+  width: 56%;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  text-align: left;
+  color: var(--black);
+  font-weight: var(--light-300);
 }
