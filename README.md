@@ -1,5 +1,5 @@
 # Website Redesign - devForge.ie 
-### (under construction_ 👷🏼‍♂️ 🚧 🏗️)
+### (under construction 👷🏼‍♂️ 🚧 🏗️)
 
 ## Project Overview 📝
 
