@@ -1,9 +1,9 @@
-# Website Redesign - devForge.ie (under-construction)
+# Website Redesign - devForge.ie _(under-construction_ 👷🏼‍♂️ 🚧 🏗️ _)_
 
 ## Project Overview 📝
 
-The goal of this project is to enhance user experience, improve functionality, and modernize the visual aesthetics of the existing website.
-Through careful analysis of owner's feedback and also industry trends, the aim is to create a more intuitive and visually appealing interface that aligns with current design standards.
+> The goal of this project is to enhance user experience, improve functionality, and modernize the visual aesthetics of the existing website.
+> Through careful analysis of owner's feedback and also industry trends, the aim is to create a more intuitive and visually appealing interface that aligns with current design standards.
 
 ## Before Screenshots 🧟‍♂️
 
@@ -19,4 +19,4 @@ Through careful analysis of owner's feedback and also industry trends, the aim i
 
 ## Conclusion ✅
 
-...under construction.
+> ...under construction.
