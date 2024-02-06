@@ -55,7 +55,7 @@ export function Navbar() {
             to="footer"
             offset={-80}
             smooth={true}
-            title="footer"
+            title="contact"
             activeClass={style.navbar__active}
           >
             <li>Contact</li>
