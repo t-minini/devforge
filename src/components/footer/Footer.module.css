@@ -1,9 +1,8 @@
 .contact {
   display: flex;
-  height: 100dvh;
   justify-content: center;
+  height: calc(100vh - 8rem);
   padding-top: var(--padding-l);
-  /* padding-bottom: var(--padding-l); */
   background: var(--gradient-footer);
 }
 
@@ -11,24 +10,117 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
   width: var(--content-width);
-  background-color: red;
+  justify-content: space-between;
 }
 
 .content__top h2 {
-  font-weight: 500;
   font-size: 5.8rem;
   line-height: 5.4rem;
   color: var(--black);
   margin-bottom: 1rem;
+  font-weight: var(--medium-500);
 }
 
 .content__top p {
   width: 56%;
+  text-align: left;
   font-size: 1.8rem;
   line-height: 2.2rem;
-  text-align: left;
   color: var(--black);
   font-weight: var(--light-300);
+}
+
+.content__bottom {
+  width: 100%;
+}
+
+.bottom__top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom__top p,
+a {
+  font-size: 2.2rem;
+  width: fit-content;
+  line-height: 3.4rem;
+  color: var(--black);
+  text-decoration: none;
+  font-weight: var(--light-300);
+}
+
+.bottom__top a {
+  color: var(--black);
+  transition: color ease 0.5s;
+}
+
+.bottom__top a:hover {
+  color: var(--white);
+}
+
+svg {
+  height: 2.4rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.6rem;
+}
+
+svg path {
+  transition: fill ease 0.5s;
+}
+
+svg:hover path {
+  fill: var(--white);
+}
+
+.bottom__middle {
+  width: 100%;
+  display: flex;
+  color: var(--black);
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.bottom__middle img {
+  height: 4.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.bottom__middle p {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  font-weight: var(--light-300);
+}
+
+.contact__content hr {
+  width: 100%;
+  border: none;
+  height: 0.1rem;
+  background-color: var(--black);
+}
+.bottom__bottom {
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  color: var(--black);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottom__bottom p {
+  font-size: 1.4rem;
+  font-weight: var(--light-300);
+}
+
+.backToTop__link {
+  cursor: pointer;
+  font-size: 1.4rem;
+  color: var(--black);
+  transition: color ease 0.5s;
+  font-weight: var(--light-300);
+}
+
+.backToTop__link:hover {
+  color: var(--white);
 }
