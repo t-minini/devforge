@@ -65,3 +65,55 @@
   width: 100%;
   background-color: var(--orange-light);
 }
+
+/* SMARTPHONES - SHORTER SCREENS (PORTRAIT) */
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+  .navbar {
+    display: none;
+  }
+}
+
+/* SMARTPHONES - SHORTER SCREENS (LANDSCAPE) */
+@media only screen and (min-width: 665px) and (orientation: landscape) {
+}
+
+/* SMARTPHONES - TALLER SCREENS (PORTRAIT) */
+@media only screen and (min-width: 390px) and (orientation: portrait) {
+  /* not needed */
+}
+
+/* SMARTPHONES - TALLER SCREENS (LANDSCAPE) */
+@media only screen and (min-width: 843px) and (orientation: landscape) {
+  /* not needed */
+}
+
+/* IPAD MINI (PORTRAIT) */
+@media only screen and (min-width: 767px) and (orientation: portrait) {
+}
+
+/* IPAD MINI (LANDSCAPE) */
+@media only screen and (min-width: 1023px) and (orientation: landscape) {
+}
+
+/* IPAD AIR (PORTRAIT) */
+@media only screen and (min-width: 769px) and (orientation: portrait) {
+}
+
+/* IPAD AIR (LANDSCAPE) */
+@media only screen and (min-width: 1179px) and (orientation: landscape) {
+}
+
+/* IPAD PRO (PORTRAIT) */
+@media only screen and (min-width: 1023px) and (orientation: portrait) {
+  /* not needed */
+}
+
+/* IPAD PRO and MACBOOK PRO 14" (LANDSCAPE) */
+@media only screen and (min-width: 1365px) and (orientation: landscape) {
+  /* not needed */
+}
+
+/* MONITORS (LANDSCAPE) */
+@media only screen and (min-width: 1520px) and (orientation: landscape) {
+  /* not needed */
+}
