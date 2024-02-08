@@ -3,8 +3,6 @@
   height: max-content;
   justify-content: center;
   background: var(--white);
-  padding-top: var(--padding-l);
-  padding-bottom: var(--padding-l);
 }
 
 .why__content {
@@ -12,30 +10,20 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  width: var(--content-width);
 }
 
 .why__content h2 {
-  font-weight: 500;
-  font-size: 5.6rem;
   color: var(--black);
-  line-height: 4.4rem;
-  margin-bottom: 6rem;
   font-weight: var(--light-300);
 }
 
 .why__cards {
-  row-gap: 6rem;
   display: flex;
   flex-wrap: wrap;
-  column-gap: 9.7rem;
-  justify-content: center;
 }
 
 .card__border {
-  width: 32.2rem;
   padding: 0.5rem;
-  height: 27.5rem;
   border-radius: 2.3rem;
   background: var(--gradient-card);
 }
@@ -57,15 +45,11 @@
 }
 
 .card__inner h3 {
-  font-size: 2.4rem;
   color: var(--black);
-  padding-bottom: 1.6rem;
   font-weight: var(--bold-700);
 }
 
 .card__inner p {
-  width: 80%;
-  font-size: 1.8rem;
   color: var(--black);
   font-weight: var(--regular-400);
 }
@@ -73,41 +57,175 @@
 /* SMARTPHONES - SHORTER SCREENS (PORTRAIT) */
 @media only screen and (max-width: 480px) and (orientation: portrait) {
   .why {
-    display: none;
+    padding-top: var(--padding-m);
+    padding-bottom: var(--padding-m);
+  }
+
+  .why__content {
+    padding-left: var(--padding-s);
+    padding-right: var(--padding-s);
+  }
+
+  .why__content h2 {
+    font-size: 3rem;
+    line-height: 2.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .why__cards {
+    row-gap: 4rem;
+  }
+
+  .card__border {
+    width: 28rem;
+    height: 25rem;
+  }
+
+  .card__inner h3 {
+    font-size: 2.1rem;
+  }
+
+  .card__inner p {
+    width: 85%;
+    font-size: 1.7rem;
   }
 }
 
 /* SMARTPHONES - SHORTER SCREENS (LANDSCAPE) */
 @media only screen and (min-width: 665px) and (orientation: landscape) {
   .why {
-    display: none;
+    padding-top: var(--padding-m);
+    padding-bottom: var(--padding-m);
+  }
+
+  .why__content {
+    padding-left: var(--padding-s);
+    padding-right: var(--padding-s);
+  }
+
+  .why__content h2 {
+    font-size: 3rem;
+    line-height: 2.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .why__cards {
+    row-gap: 4rem;
+  }
+
+  .card__border {
+    width: 28rem;
+    height: 25rem;
+  }
+
+  .card__inner h3 {
+    font-size: 2.1rem;
+  }
+
+  .card__inner p {
+    width: 85%;
+    font-size: 1.7rem;
   }
 }
 
 /* SMARTPHONES - TALLER SCREENS (PORTRAIT) */
 @media only screen and (min-width: 390px) and (orientation: portrait) {
-  /* not needed */
+  .why__content h2 {
+    font-size: 3.5rem;
+  }
 }
 
 /* SMARTPHONES - TALLER SCREENS (LANDSCAPE) */
 @media only screen and (min-width: 843px) and (orientation: landscape) {
-  /* not needed */
+  .why__content h2 {
+    font-size: 3.5rem;
+  }
 }
 
 /* IPAD MINI (PORTRAIT) */
 @media only screen and (min-width: 767px) and (orientation: portrait) {
+  .why {
+    padding-top: var(--padding-m);
+    padding-bottom: var(--padding-m);
+  }
+
+  .why__content {
+    padding-left: var(--padding-m);
+    padding-right: var(--padding-m);
+  }
+
+  .why__content h2 {
+    font-size: 5rem;
+    line-height: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .why__cards {
+    column-gap: unset;
+    justify-content: space-evenly;
+  }
+
+  .card__border {
+    width: 28rem;
+    height: 25rem;
+  }
+
+  .card__inner h3 {
+    font-size: 2.1rem;
+  }
+
+  .card__inner p {
+    width: 85%;
+    font-size: 1.7rem;
+  }
 }
 
 /* IPAD MINI (LANDSCAPE) */
 @media only screen and (min-width: 1023px) and (orientation: landscape) {
+  .why {
+    padding-top: var(--padding-m);
+    padding-bottom: var(--padding-m);
+  }
+
+  .why__content {
+    padding-left: var(--padding-m);
+    padding-right: var(--padding-m);
+  }
+
+  .why__content h2 {
+    font-size: 5rem;
+    line-height: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .why__cards {
+    column-gap: unset;
+    justify-content: space-evenly;
+  }
+
+  .card__border {
+    width: 28rem;
+    height: 25rem;
+  }
+
+  .card__inner h3 {
+    font-size: 2.1rem;
+  }
+
+  .card__inner p {
+    width: 85%;
+    font-size: 1.7rem;
+  }
 }
 
 /* IPAD AIR (PORTRAIT) */
 @media only screen and (min-width: 769px) and (orientation: portrait) {
+  /* not needed */
 }
 
 /* IPAD AIR (LANDSCAPE) */
 @media only screen and (min-width: 1179px) and (orientation: landscape) {
+  /* not needed */
 }
 
 /* IPAD PRO (PORTRAIT) */
@@ -117,7 +235,46 @@
 
 /* IPAD PRO and MACBOOK PRO 14" (LANDSCAPE) */
 @media only screen and (min-width: 1365px) and (orientation: landscape) {
-  /* not needed */
+  .why {
+    padding-top: var(--padding-l);
+    padding-bottom: var(--padding-l);
+  }
+
+  .why__content {
+    padding-left: unset;
+    padding-right: unset;
+    width: var(--content-width);
+  }
+
+  .why__content h2 {
+    font-size: 5.6rem;
+    line-height: 4.4rem;
+    margin-bottom: 6rem;
+  }
+
+  .why__cards {
+    row-gap: 9rem;
+    column-gap: 9.7rem;
+  }
+
+  .why__cards div:nth-child(5) {
+    margin-left: -21rem;
+  }
+
+  .card__border {
+    width: 32.2rem;
+    height: 27.5rem;
+  }
+
+  .card__inner h3 {
+    font-size: 2.4rem;
+    padding-bottom: 1.6rem;
+  }
+
+  .card__inner p {
+    width: 80%;
+    font-size: 1.8rem;
+  }
 }
 
 /* MONITORS (LANDSCAPE) */

@@ -77,7 +77,9 @@
 /* SMARTPHONES - SHORTER SCREENS (PORTRAIT) */
 @media only screen and (max-width: 480px) and (orientation: portrait) {
   .hero__content {
-    width: min-content;
+    width: 100%;
+    padding-left: var(--padding-s);
+    padding-right: var(--padding-s);
   }
 
   .hero__content h1 {
@@ -87,7 +89,7 @@
   }
 
   .hero__content img {
-    height: 11rem;
+    height: 11.2rem;
   }
 
   .hero__link {
@@ -131,7 +133,7 @@
   }
 
   .hero__content img {
-    height: 13rem;
+    height: 11.6rem;
   }
 }
 
@@ -203,9 +205,13 @@
     width: var(--content-width);
   }
 
+  .hero__content img {
+    height: 30rem;
+  }
+
   .hero__content h1 {
     font-size: 9rem;
-    line-height: 6rem;
+    line-height: 8rem;
     margin-bottom: 2rem;
   }
 
