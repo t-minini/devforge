@@ -108,9 +108,6 @@
 
 /* SMARTPHONES - SHORTER SCREENS (LANDSCAPE) */
 @media only screen and (min-width: 665px) and (orientation: landscape) {
-  .hero {
-    /* justify-content: flex-start; */
-  }
   .hero__content {
     width: min-content;
     align-items: flex-start;
@@ -137,12 +134,16 @@
 
 /* SMARTPHONES - TALLER SCREENS (PORTRAIT) */
 @media only screen and (min-width: 390px) and (orientation: portrait) {
-  /* not needed */
+  .hero__content img {
+    height: 12rem;
+  }
 }
 
 /* SMARTPHONES - TALLER SCREENS (LANDSCAPE) */
 @media only screen and (min-width: 843px) and (orientation: landscape) {
-  /* not needed */
+  .hero__content img {
+    height: 12rem;
+  }
 }
 
 /* IPAD MINI (PORTRAIT) */
