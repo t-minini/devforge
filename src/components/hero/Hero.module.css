@@ -26,6 +26,7 @@
   text-align: center;
   align-items: center;
   color: var(--white);
+  margin-left: 0.6rem;
   text-decoration: none;
   transition: all 0.35s;
   border-radius: 0.5rem;
