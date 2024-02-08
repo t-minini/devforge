@@ -134,6 +134,9 @@ svg:hover path {
 
 /* SMARTPHONES - SHORTER SCREENS (LANDSCAPE) */
 @media only screen and (min-width: 665px) and (orientation: landscape) {
+  .contact {
+    display: none;
+  }
 }
 
 /* SMARTPHONES - TALLER SCREENS (PORTRAIT) */

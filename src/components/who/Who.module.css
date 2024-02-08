@@ -68,6 +68,9 @@
 
 /* SMARTPHONES - SHORTER SCREENS (LANDSCAPE) */
 @media only screen and (min-width: 665px) and (orientation: landscape) {
+  .who {
+    display: none;
+  }
 }
 
 /* SMARTPHONES - TALLER SCREENS (PORTRAIT) */
