@@ -11,25 +11,17 @@
   align-items: center;
   flex-direction: column;
   align-items: flex-start;
-  width: var(--content-width);
   justify-content: space-between;
 }
 
 .hero__content h1 {
-  font-size: 9rem;
-  line-height: 6rem;
   color: var(--white);
-  margin-bottom: 2rem;
   font-weight: var(--regular-400);
 }
 
 .hero__link {
-  width: 14rem;
-  height: 40px;
   display: flex;
   cursor: pointer;
-  margin-top: 2rem;
-  font-size: 1.8rem;
   position: relative;
   text-align: center;
   align-items: center;
@@ -134,8 +126,12 @@
 
 /* SMARTPHONES - TALLER SCREENS (PORTRAIT) */
 @media only screen and (min-width: 390px) and (orientation: portrait) {
+  .hero__content {
+    width: min-content;
+  }
+
   .hero__content img {
-    height: 12rem;
+    height: 13rem;
   }
 }
 
@@ -148,18 +144,52 @@
 
 /* IPAD MINI (PORTRAIT) */
 @media only screen and (min-width: 767px) and (orientation: portrait) {
+  .hero__content h1 {
+    font-size: 7rem;
+    line-height: 6rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero__content img {
+    height: 21rem;
+  }
+
+  .hero__link {
+    width: 14rem;
+    height: 40px;
+    margin-top: 1rem;
+    font-size: 1.8rem;
+  }
 }
 
 /* IPAD MINI (LANDSCAPE) */
 @media only screen and (min-width: 1023px) and (orientation: landscape) {
+  .hero__content h1 {
+    font-size: 7rem;
+    line-height: 6rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero__content img {
+    height: 21rem;
+  }
+
+  .hero__link {
+    width: 14rem;
+    height: 40px;
+    margin-top: 1rem;
+    font-size: 1.8rem;
+  }
 }
 
 /* IPAD AIR (PORTRAIT) */
 @media only screen and (min-width: 769px) and (orientation: portrait) {
+  /* not needed */
 }
 
 /* IPAD AIR (LANDSCAPE) */
 @media only screen and (min-width: 1179px) and (orientation: landscape) {
+  /* not needed */
 }
 
 /* IPAD PRO (PORTRAIT) */
@@ -169,7 +199,22 @@
 
 /* IPAD PRO and MACBOOK PRO 14" (LANDSCAPE) */
 @media only screen and (min-width: 1365px) and (orientation: landscape) {
-  /* not needed */
+  .hero__content {
+    width: var(--content-width);
+  }
+
+  .hero__content h1 {
+    font-size: 9rem;
+    line-height: 6rem;
+    margin-bottom: 2rem;
+  }
+
+  .hero__link {
+    width: 14rem;
+    height: 4rem;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+  }
 }
 
 /* MONITORS (LANDSCAPE) */
