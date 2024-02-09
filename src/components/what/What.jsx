@@ -2,10 +2,10 @@ import style from './What.module.css';
 import logo from './../../assets/images/navbar-logo.svg';
 import one from './../../assets/images/what-images/what-01.jpg';
 import two from './../../assets/images/what-images/what-02.jpg';
-import three from './../../assets/images/what-images/what-03.jpg';
+import six from './../../assets/images/what-images/what-06.jpg';
 import four from './../../assets/images/what-images/what-04.jpg';
 import five from './../../assets/images/what-images/what-05.jpg';
-import six from './../../assets/images/what-images/what-06.jpg';
+import three from './../../assets/images/what-images/what-03.jpg';
 
 export function What() {
   return (
