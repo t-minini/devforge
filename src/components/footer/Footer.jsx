@@ -38,8 +38,8 @@ export function Footer() {
               href="https://www.linkedin.com/company/devforge-ltd/"
             >
               <svg
-                viewBox="0 0 30 30"
                 fill="none"
+                viewBox="0 0 30 30"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
