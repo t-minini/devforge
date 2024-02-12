@@ -3,23 +3,14 @@
   height: max-content;
   justify-content: center;
   background: var(--black);
-  padding-top: var(--padding-l);
-  padding-bottom: var(--padding-l);
 }
 
 .who__content {
-  display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
-  width: var(--content-width);
 }
 
 .who__content h2 {
-  font-weight: 500;
-  font-size: 5.6rem;
-  line-height: 4.4rem;
-  margin-bottom: 6rem;
   color: var(--white);
   font-weight: var(--light-300);
 }
@@ -30,30 +21,23 @@
 }
 
 .cards__container hr {
-  height: 8.8rem;
   border: none;
-  width: 0.1rem;
-  margin: 38em 0;
   background-color: var(--orange-dark);
 }
 
 .who__card {
-  width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
 .who__card h3 {
-  font-weight: 500;
-  font-size: 2.4rem;
   text-align: center;
   color: var(--white);
-  padding-bottom: 1.6rem;
+  font-weight: var(--medium-500);
 }
 
 .who__card p {
-  font-size: 1.8rem;
   text-align: center;
   color: var(--white);
   font-weight: var(--light-300);
@@ -72,31 +56,73 @@
   }
 
   .who__content h2 {
-    font-size: 3rem;
-    line-height: 2.5rem;
-    margin-bottom: 5rem;
+    font-size: 3.4rem;
     text-align: center;
+    line-height: 3.4rem;
+    margin-bottom: 4rem;
   }
 
   .cards__container {
-    /* gap: 4.9rem; */
-    /* display: flex; */
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
   }
 
   .cards__container hr {
-    height: 0.1rem;
-    /* border: none; */
-    width: 14rem;
-   
     margin: 0;
-    /* background-color: var(--orange-dark); */
+    width: 14rem;
+    height: 0.1rem;
+  }
+
+  .who__card h3 {
+    font-size: 2.1rem;
+    margin-bottom: 1rem;
+  }
+
+  .who__card p {
+    width: 95%;
+    font-size: 1.7rem;
   }
 }
 
 /* SMARTPHONES - SHORTER SCREENS (LANDSCAPE) */
 @media only screen and (min-width: 665px) and (orientation: landscape) {
+  .who {
+    padding-top: var(--padding-m);
+    padding-bottom: var(--padding-m);
+  }
+
+  .who__content {
+    padding-left: var(--padding-s);
+    padding-right: var(--padding-s);
+  }
+
+  .who__content h2 {
+    font-size: 3.4rem;
+    text-align: center;
+    line-height: 2.5rem;
+    margin-bottom: 5rem;
+  }
+
+  .cards__container {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .cards__container hr {
+    margin: 0;
+    width: 14rem;
+    height: 0.1rem;
+  }
+
+  .who__card h3 {
+    font-size: 2.1rem;
+    margin-bottom: 2rem;
+  }
+
+  .who__card p {
+    width: 60%;
+    font-size: 1.7rem;
+  }
 }
 
 /* SMARTPHONES - TALLER SCREENS (PORTRAIT) */
@@ -111,18 +137,92 @@
 
 /* IPAD MINI (PORTRAIT) */
 @media only screen and (min-width: 767px) and (orientation: portrait) {
+  .who {
+    padding-top: var(--padding-l);
+    padding-bottom: var(--padding-l);
+  }
+
+  .who__content {
+    padding-left: var(--padding-m);
+    padding-right: var(--padding-m);
+  }
+
+  .who__content h2 {
+    font-size: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+
+  .who__card h3 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .cards__container {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .cards__container hr {
+    margin: 0;
+    width: 14rem;
+    height: 0.1rem;
+  }
+
+  .who__card p {
+    width: 60%;
+    font-size: 1.7rem;
+  }
 }
 
 /* IPAD MINI (LANDSCAPE) */
 @media only screen and (min-width: 1023px) and (orientation: landscape) {
+  .who {
+    padding-top: var(--padding-l);
+    padding-bottom: var(--padding-l);
+  }
+
+  .who__content {
+    padding-left: var(--padding-m);
+    padding-right: var(--padding-m);
+  }
+
+  .who__content h2 {
+    font-size: 5rem;
+    line-height: 4rem;
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+
+  .who__card h3 {
+    font-size: 2.1rem;
+  }
+
+  .cards__container {
+    align-items: center;
+  }
+
+  .cards__container hr {
+    margin: 0;
+    width: 14rem;
+    height: 0.1rem;
+  }
+
+  .who__card p {
+    width: 60%;
+    font-size: 1.6rem;
+  }
 }
 
 /* IPAD AIR (PORTRAIT) */
 @media only screen and (min-width: 769px) and (orientation: portrait) {
+  /* not needed */
 }
 
 /* IPAD AIR (LANDSCAPE) */
 @media only screen and (min-width: 1179px) and (orientation: landscape) {
+  /* not needed */
 }
 
 /* IPAD PRO (PORTRAIT) */
@@ -132,7 +232,45 @@
 
 /* IPAD PRO and MACBOOK PRO 14" (LANDSCAPE) */
 @media only screen and (min-width: 1365px) and (orientation: landscape) {
-  /* not needed */
+  .who {
+    padding-top: var(--padding-l);
+    padding-bottom: var(--padding-l);
+  }
+
+  .who__content {
+    width: var(--content-width);
+  }
+
+  .who__content h2 {
+    font-size: 5.6rem;
+    line-height: 4.4rem;
+    margin-bottom: 6rem;
+  }
+
+  .cards__container {
+    flex-direction: row;
+  }
+
+  .cards__container hr {
+    width: 0.1rem;
+    margin: 38em 0;
+    height: 8.8rem;
+  }
+
+  .who__card {
+    width: 100%;
+
+  }
+
+  .who__card h3 {
+    font-size: 2.4rem;
+    padding-bottom: 1.6rem;
+  }
+
+  .who__card p {
+    width: 100%;
+    font-size: 1.8rem;
+  }
 }
 
 /* MONITORS (LANDSCAPE) */

@@ -2,7 +2,6 @@
   display: flex;
   height: 100dvh;
   align-items: center;
-  justify-content: center;
   background: var(--black);
 }
 
@@ -103,10 +102,16 @@
 
 /* SMARTPHONES - SHORTER SCREENS (LANDSCAPE) */
 @media only screen and (min-width: 665px) and (orientation: landscape) {
+  .hero {
+    justify-content: flex-start;
+  }
+
   .hero__content {
     width: min-content;
     align-items: flex-start;
     justify-content: flex-start;
+    padding-left: var(--padding-s);
+    padding-right: var(--padding-s);
   }
 
   .hero__content h1 {
@@ -147,6 +152,15 @@
 
 /* IPAD MINI (PORTRAIT) */
 @media only screen and (min-width: 767px) and (orientation: portrait) {
+  .hero {
+    justify-content: flex-start;
+  }
+
+  .hero__content {
+    padding-left: var(--padding-m);
+    padding-right: var(--padding-m);
+  }
+
   .hero__content h1 {
     font-size: 7rem;
     line-height: 6rem;
@@ -167,6 +181,16 @@
 
 /* IPAD MINI (LANDSCAPE) */
 @media only screen and (min-width: 1023px) and (orientation: landscape) {
+  .hero {
+    justify-content: flex-start;
+  }
+
+  .hero__content {
+    width: min-content;
+    padding-left: var(--padding-m);
+    padding-right: var(--padding-m);
+  }
+
   .hero__content h1 {
     font-size: 7rem;
     line-height: 6rem;
@@ -202,7 +226,13 @@
 
 /* IPAD PRO and MACBOOK PRO 14" (LANDSCAPE) */
 @media only screen and (min-width: 1365px) and (orientation: landscape) {
+  .hero {
+    justify-content: center;
+  }
+
   .hero__content {
+    padding-left: unset;
+    padding-right: unset;
     width: var(--content-width);
   }
 

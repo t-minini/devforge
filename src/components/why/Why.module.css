@@ -67,9 +67,11 @@
   }
 
   .why__content h2 {
-    font-size: 3rem;
-    line-height: 2.5rem;
-    margin-bottom: 5rem;
+    width: 90%;
+    text-align: center;
+    font-size: 3.4rem;
+    line-height: 3.4rem;
+    margin-bottom: 4rem;
   }
 
   .why__cards {
@@ -84,6 +86,7 @@
 
   .card__inner h3 {
     font-size: 2.1rem;
+    margin-bottom: 1rem;
   }
 
   .card__inner p {
@@ -105,13 +108,14 @@
   }
 
   .why__content h2 {
-    font-size: 3rem;
+    font-size: 3.4rem;
     line-height: 2.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
   }
 
   .why__cards {
     row-gap: 4rem;
+    justify-content: space-evenly;
   }
 
   .card__border {
@@ -121,6 +125,7 @@
 
   .card__inner h3 {
     font-size: 2.1rem;
+    margin-bottom: 1rem;
   }
 
   .card__inner p {
@@ -146,8 +151,8 @@
 /* IPAD MINI (PORTRAIT) */
 @media only screen and (min-width: 767px) and (orientation: portrait) {
   .why {
-    padding-top: var(--padding-m);
-    padding-bottom: var(--padding-m);
+    padding-top: var(--padding-l);
+    padding-bottom: var(--padding-l);
   }
 
   .why__content {
@@ -158,10 +163,11 @@
   .why__content h2 {
     font-size: 5rem;
     line-height: 4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
   }
 
   .why__cards {
+    row-gap: 5rem;
     column-gap: unset;
     justify-content: space-evenly;
   }
@@ -172,7 +178,8 @@
   }
 
   .card__inner h3 {
-    font-size: 2.1rem;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
   }
 
   .card__inner p {
@@ -184,8 +191,8 @@
 /* IPAD MINI (LANDSCAPE) */
 @media only screen and (min-width: 1023px) and (orientation: landscape) {
   .why {
-    padding-top: var(--padding-m);
-    padding-bottom: var(--padding-m);
+    padding-top: var(--padding-l);
+    padding-bottom: var(--padding-l);
   }
 
   .why__content {
@@ -196,7 +203,7 @@
   .why__content h2 {
     font-size: 5rem;
     line-height: 4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
   }
 
   .why__cards {
@@ -211,11 +218,12 @@
 
   .card__inner h3 {
     font-size: 2.1rem;
+    margin-bottom: 1rem;
   }
 
   .card__inner p {
     width: 85%;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -269,7 +277,7 @@
 
   .card__inner h3 {
     font-size: 2.4rem;
-    padding-bottom: 1.6rem;
+    margin-bottom: 1.6rem;
   }
 
   .card__inner p {
