@@ -69,11 +69,12 @@
   .why__content h2 {
     font-size: 3rem;
     line-height: 2.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
   }
 
   .why__cards {
     row-gap: 4rem;
+    justify-content: center;
   }
 
   .card__border {
