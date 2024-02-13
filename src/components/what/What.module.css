@@ -207,6 +207,69 @@
 
 /* SMARTPHONES - SHORTER SCREENS (LANDSCAPE) */
 @media only screen and (min-width: 665px) and (orientation: landscape) {
+  .what {
+    padding-top: var(--padding-m);
+    padding-bottom: var(--padding-m);
+  }
+
+  .what__content {
+    padding-left: var(--padding-s);
+    padding-right: var(--padding-s);
+  }
+
+  .what__content h2 {
+    font-size: 3.4rem;
+    line-height: 2.5rem;
+    margin-bottom: 5rem;
+  }
+
+  .content__left {
+    height: 29rem;
+    margin-top: 0;
+    margin-bottom: 6rem;
+  }
+
+  .left__text h3 {
+    font-size: 2.1rem;
+  }
+
+  .left__text p:last-of-type {
+    font-size: 1.7rem;
+  }
+
+  .left__img {
+    height: 29rem;
+  }
+
+  .left__img img {
+    height: 100%;
+  }
+
+  .content__right {
+    height: 29rem;
+    margin-top: 0;
+    margin-bottom: 6rem;
+  }
+
+  .content__right:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .right__text h3 {
+    font-size: 2.1rem;
+  }
+
+  .right__text p:last-of-type {
+    font-size: 1.7rem;
+  }
+
+  .right__img {
+    height: 29rem;
+  }
+
+  .right__img img {
+    height: 100%;
+  }
 }
 
 /* SMARTPHONES - TALLER SCREENS (PORTRAIT) */
