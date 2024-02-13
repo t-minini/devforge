@@ -3,8 +3,6 @@
   height: max-content;
   justify-content: center;
   background: var(--white);
-  padding-top: var(--padding-l);
-  padding-bottom: var(--padding-l);
 }
 
 .what__content {
@@ -12,20 +10,15 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  width: var(--content-width);
 }
 
 .what__content h2 {
-  font-size: 5.6rem;
   color: var(--black);
-  line-height: 4.4rem;
   font-weight: var(--light-300);
 }
 
 .content__left {
-  height: 34rem;
   display: grid;
-  margin-top: 6rem;
   grid-template-columns: repeat(2, 1fr);
 }
 
@@ -39,18 +32,12 @@
 }
 
 .left__text h3 {
-  font-size: 2.4rem;
-  width: fit-content;
   color: var(--black);
-  padding-top: 0.6rem;
-  padding-bottom: 1rem;
+
   font-weight: var(--bold-700);
 }
 
 .left__text p:first-of-type {
-  font-size: 6rem;
-  padding-top: 1rem;
-  line-height: 5rem;
   width: fit-content;
   color: var(--black);
   font-weight: var(--medium-500);
@@ -58,13 +45,8 @@
 }
 
 .left__text p:last-of-type {
-  font-size: 1.8rem;
   color: var(--black);
   font-weight: var(--regular-400);
-}
-
-.left__img {
-  height: 34rem;
 }
 
 .left__img img {
@@ -74,8 +56,6 @@
 }
 
 .content__right {
-  margin-top: 6rem;
-  height: 34rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -90,18 +70,12 @@
 }
 
 .right__text h3 {
-  font-size: 2.4rem;
   width: fit-content;
   color: var(--black);
-  padding-top: 0.6rem;
-  padding-bottom: 1rem;
   font-weight: var(--bold-700);
 }
 
 .right__text p:first-of-type {
-  font-size: 6rem;
-  padding-top: 1rem;
-  line-height: 5rem;
   width: fit-content;
   color: var(--black);
   font-weight: var(--medium-500);
@@ -109,13 +83,8 @@
 }
 
 .right__text p:last-of-type {
-  font-size: 1.8rem;
   color: var(--black);
   font-weight: var(--regular-400);
-}
-
-.right__img img {
-  height: 34rem;
 }
 
 .right__img img {
@@ -155,11 +124,20 @@
 
   .left__text h3 {
     font-size: 2.1rem;
+    padding-top: 0.6rem;
+    padding-bottom: 1rem;
   }
 
   .left__text p:last-of-type {
     font-size: 1.7rem;
   }
+
+  .left__text p:first-of-type {
+    font-size: 5rem;
+    padding-top: 1rem;
+    line-height: 5rem;
+  }
+  
 
   .left__img {
     height: 20rem;
@@ -182,6 +160,12 @@
     margin-bottom: 0;
   }
 
+  .right__text p:first-of-type {
+    font-size: 5rem;
+    padding-top: 1rem;
+    line-height: 5rem;
+  }
+
   .right__text {
     width: 100%;
     margin: unset;
@@ -189,6 +173,8 @@
 
   .right__text h3 {
     font-size: 2.1rem;
+    padding-top: 0.6rem;
+    padding-bottom: 1rem;
   }
 
   .right__text p:last-of-type {
@@ -237,6 +223,12 @@
     font-size: 1.7rem;
   }
 
+  .left__text p:first-of-type {
+    font-size: 5rem;
+    padding-top: 1rem;
+    line-height: 5rem;
+  }
+
   .left__img {
     height: 29rem;
   }
@@ -253,6 +245,12 @@
 
   .content__right:last-of-type {
     margin-bottom: 0;
+  }
+
+  .right__text p:first-of-type {
+    font-size: 5rem;
+    padding-top: 1rem;
+    line-height: 5rem;
   }
 
   .right__text h3 {
@@ -318,6 +316,12 @@
     font-size: 1.7rem;
   }
 
+  .left__text p:first-of-type {
+    font-size: 5rem;
+    padding-top: 1rem;
+    line-height: 5rem;
+  }
+
   .left__img {
     height: 29rem;
   }
@@ -336,12 +340,19 @@
     margin-bottom: 0;
   }
 
+  
   .right__text h3 {
     font-size: 2.2rem;
   }
-
+  
   .right__text p:last-of-type {
     font-size: 1.7rem;
+  }
+
+  .right__text p:first-of-type {
+    font-size: 5rem;
+    padding-top: 1rem;
+    line-height: 5rem;
   }
 
   .right__img {
@@ -437,7 +448,77 @@
 
 /* IPAD PRO and MACBOOK PRO 14" (LANDSCAPE) */
 @media only screen and (min-width: 1365px) and (orientation: landscape) {
-  /* not needed */
+  .what {
+    padding-top: var(--padding-l);
+    padding-bottom: var(--padding-l);
+  }
+
+  .what__content {
+    padding-left: unset;
+    padding-right: unset;
+    width: var(--content-width);
+  }
+
+  .what__content h2 {
+    font-size: 5.6rem;
+    line-height: 4.4rem;
+  }
+
+  .content__left {
+    height: 34rem;
+    margin-bottom: 6rem;
+  }
+
+  .left__text {
+    width: 80%;
+    margin: auto;
+  }
+
+  .left__text h3 {
+    font-size: 2.4rem;
+    padding-top: 0.6rem;
+    padding-bottom: 1rem;
+  }
+
+  .left__text p:first-of-type {
+    font-size: 6rem;
+    padding-top: 1rem;
+    line-height: 5rem;
+  }
+
+  .left__text p:last-of-type {
+    font-size: 1.8rem;
+  }
+
+  .left__img {
+    height: 34rem;
+  }
+
+
+  .content__right {
+    height: 34rem;
+    margin-bottom: 6rem;
+  }
+
+  .right__text h3 {
+    font-size: 2.4rem;
+    padding-top: 0.6rem;
+    padding-bottom: 1rem;
+  }
+
+  .right__text p:first-of-type {
+    font-size: 6rem;
+    padding-top: 1rem;
+    line-height: 5rem;
+  }
+
+  .right__text p:last-of-type {
+    font-size: 1.8rem;
+  }
+
+  .right__img img {
+    height: 34rem;
+  }
 }
 
 /* MONITORS (LANDSCAPE) */
