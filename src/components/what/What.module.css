@@ -274,28 +274,160 @@
 
 /* SMARTPHONES - TALLER SCREENS (PORTRAIT) */
 @media only screen and (min-width: 390px) and (orientation: portrait) {
-  /* not needed */
+  .what__content h2 {
+    font-size: 3.5rem;
+  }
 }
 
 /* SMARTPHONES - TALLER SCREENS (LANDSCAPE) */
 @media only screen and (min-width: 843px) and (orientation: landscape) {
-  /* not needed */
+  .what__content h2 {
+    font-size: 3.5rem;
+  }
 }
 
 /* IPAD MINI (PORTRAIT) */
 @media only screen and (min-width: 767px) and (orientation: portrait) {
+  .what {
+    padding-top: var(--padding-l);
+    padding-bottom: var(--padding-l);
+  }
+
+  .what__content {
+    padding-left: var(--padding-m);
+    padding-right: var(--padding-m);
+  }
+
+  .what__content h2 {
+    font-size: 5rem;
+    line-height: 4rem;
+    margin-bottom: 5rem;
+  }
+
+  .content__left {
+    height: 29rem;
+    margin-top: 0;
+    margin-bottom: 6rem;
+  }
+
+  .left__text h3 {
+    font-size: 2.2rem;
+  }
+
+  .left__text p:last-of-type {
+    font-size: 1.7rem;
+  }
+
+  .left__img {
+    height: 29rem;
+  }
+
+  .left__img img {
+    height: 100%;
+  }
+
+  .content__right {
+    margin-top: 0;
+    height: 29rem;
+    margin-bottom: 6rem;
+  }
+
+  .content__right:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .right__text h3 {
+    font-size: 2.2rem;
+  }
+
+  .right__text p:last-of-type {
+    font-size: 1.7rem;
+  }
+
+  .right__img {
+    height: 29rem;
+  }
+
+  .right__img img {
+    height: 100%;
+  }
 }
 
 /* IPAD MINI (LANDSCAPE) */
 @media only screen and (min-width: 1023px) and (orientation: landscape) {
+  .what {
+    padding-top: var(--padding-l);
+    padding-bottom: var(--padding-l);
+  }
+
+  .what__content {
+    padding-left: var(--padding-m);
+    padding-right: var(--padding-m);
+  }
+
+  .what__content h2 {
+    font-size: 5rem;
+    line-height: 4rem;
+    margin-bottom: 5rem;
+  }
+
+  .content__left {
+    height: 29rem;
+    margin-top: 0;
+    margin-bottom: 6rem;
+  }
+
+  .left__text h3 {
+    font-size: 2.2rem;
+  }
+
+  .left__text p:last-of-type {
+    font-size: 1.7rem;
+  }
+
+  .left__img {
+    height: 29rem;
+  }
+
+  .left__img img {
+    height: 100%;
+  }
+
+  .content__right {
+    margin-top: 0;
+    height: 29rem;
+    margin-bottom: 6rem;
+  }
+
+  .content__right:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .right__text h3 {
+    font-size: 2.2rem;
+  }
+
+  .right__text p:last-of-type {
+    font-size: 1.7rem;
+  }
+
+  .right__img {
+    height: 29rem;
+  }
+
+  .right__img img {
+    height: 100%;
+  }
 }
 
 /* IPAD AIR (PORTRAIT) */
 @media only screen and (min-width: 769px) and (orientation: portrait) {
+  /* not needed */
 }
 
 /* IPAD AIR (LANDSCAPE) */
 @media only screen and (min-width: 1179px) and (orientation: landscape) {
+  /* not needed */
 }
 
 /* IPAD PRO (PORTRAIT) */
