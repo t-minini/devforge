@@ -16,7 +16,6 @@
 }
 
 .what__content h2 {
-  font-weight: 500;
   font-size: 5.6rem;
   color: var(--black);
   line-height: 4.4rem;
@@ -24,9 +23,9 @@
 }
 
 .content__left {
-  margin-top: 6rem;
   height: 34rem;
   display: grid;
+  margin-top: 6rem;
   grid-template-columns: repeat(2, 1fr);
 }
 
@@ -127,15 +126,87 @@
 /* SMARTPHONES - SHORTER SCREENS (PORTRAIT) */
 @media only screen and (max-width: 480px) and (orientation: portrait) {
   .what {
-    display: none;
+    padding-top: var(--padding-m);
+    padding-bottom: var(--padding-m);
+  }
+
+  .what__content {
+    padding-left: var(--padding-s);
+    padding-right: var(--padding-s);
+  }
+
+  .what__content h2 {
+    font-size: 3.4rem;
+    line-height: 3.4rem;
+    margin-bottom: 4rem;
+  }
+  .content__left {
+    margin-top: 0;
+    display: flex;
+    margin-bottom: 5rem;
+    height: fit-content;
+    flex-direction: column;
+  }
+
+  .left__text {
+    width: 100%;
+    margin: unset;
+  }
+
+  .left__text h3 {
+    font-size: 2.1rem;
+  }
+
+  .left__text p:last-of-type {
+    font-size: 1.7rem;
+  }
+
+  .left__img {
+    height: 20rem;
+    margin-top: 2rem;
+  }
+
+  .left__img img {
+    height: 100%;
+  }
+
+  .content__right {
+    margin-top: 0;
+    display: flex;
+    height: fit-content;
+    margin-bottom: 5rem;
+    flex-direction: column-reverse;
+  }
+
+  .content__right:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .right__text {
+    width: 100%;
+    margin: unset;
+  }
+
+  .right__text h3 {
+    font-size: 2.1rem;
+  }
+
+  .right__text p:last-of-type {
+    font-size: 1.7rem;
+  }
+
+  .right__img {
+    height: 20rem;
+    margin-top: 2rem;
+  }
+
+  .right__img img {
+    height: 100%;
   }
 }
 
 /* SMARTPHONES - SHORTER SCREENS (LANDSCAPE) */
 @media only screen and (min-width: 665px) and (orientation: landscape) {
-  .what {
-    display: none;
-  }
 }
 
 /* SMARTPHONES - TALLER SCREENS (PORTRAIT) */
