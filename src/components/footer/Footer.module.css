@@ -1,8 +1,8 @@
 .contact {
   display: flex;
   justify-content: center;
-  height: calc(100vh - 8rem);
-  padding-top: var(--padding-l);
+  /* height: calc(100vh - 8rem); */
+  /* padding-top: var(--padding-l); */
   background: var(--gradient-footer);
 }
 
@@ -10,23 +10,23 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: var(--content-width);
+  /* width: var(--content-width); */
   justify-content: space-between;
 }
 
 .content__top h2 {
-  font-size: 5.8rem;
-  line-height: 5.4rem;
+  /* font-size: 5.8rem; */
+  /* line-height: 5.4rem; */
   color: var(--black);
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
   font-weight: var(--medium-500);
 }
 
 .content__top p {
-  width: 56%;
+  /* width: 56%; */
   text-align: left;
-  font-size: 1.8rem;
-  line-height: 2.2rem;
+  /* font-size: 1.8rem; */
+  /* line-height: 2.2rem; */
   color: var(--black);
   font-weight: var(--light-300);
 }
@@ -38,14 +38,15 @@
 .bottom__top {
   width: 100%;
   display: flex;
+  margin-bottom: 10%;
   flex-direction: column;
 }
 
 .bottom__top p,
 a {
-  font-size: 2.2rem;
+  /* font-size: 2.2rem; */
   width: fit-content;
-  line-height: 3.4rem;
+  /* line-height: 3.4rem; */
   color: var(--black);
   text-decoration: none;
   font-weight: var(--light-300);
@@ -61,9 +62,9 @@ a {
 }
 
 svg {
-  height: 2.4rem;
-  margin-top: 0.8rem;
-  margin-bottom: 0.6rem;
+  /* height: 2.4rem; */
+  /* margin-top: 0.8rem; */
+  /* margin-bottom: 0.6rem; */
 }
 
 svg path {
@@ -83,13 +84,13 @@ svg:hover path {
 }
 
 .bottom__middle img {
-  height: 4.5rem;
-  margin-bottom: 0.6rem;
+  /* height: 4.5rem; */
+  /* margin-bottom: 0.6rem; */
 }
 
 .bottom__middle p {
-  font-size: 1.8rem;
-  line-height: 2.4rem;
+  /* font-size: 1.8rem; */
+  /* line-height: 2.4rem; */
   font-weight: var(--light-300);
 }
 
@@ -102,7 +103,7 @@ svg:hover path {
 
 .bottom__bottom {
   width: 100%;
-  height: 8rem;
+  /* height: 8rem; */
   display: flex;
   color: var(--black);
   align-items: center;
@@ -110,13 +111,13 @@ svg:hover path {
 }
 
 .bottom__bottom p {
-  font-size: 1.4rem;
+  /* font-size: 1.4rem; */
   font-weight: var(--light-300);
 }
 
 .backToTop__link {
   cursor: pointer;
-  font-size: 1.4rem;
+  /* font-size: 1.4rem; */
   color: var(--black);
   transition: color ease 0.5s;
   font-weight: var(--light-300);
@@ -248,18 +249,122 @@ svg:hover path {
 
 /* IPAD MINI (PORTRAIT) */
 @media only screen and (min-width: 767px) and (orientation: portrait) {
+  .contact {
+    height: 100vh;
+    padding-bottom: 0;
+    padding-top: var(--padding-l);
+  }
+
+  .contact__content {
+    padding-left: var(--padding-m);
+    padding-right: var(--padding-m);
+  }
+
+  .content__top h2 {
+    font-size: 5rem;
+    line-height: 5rem;
+    margin-bottom: 2rem;
+  }
+
+  .content__top p {
+    width: 70%;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+  }
+
+  .bottom__top {
+    margin-top: 2rem;
+  }
+
+  .bottom__top p,
+  a {
+    font-size: 2rem;
+    line-height: 2.6rem;
+  }
+
+  svg {
+    height: 2rem;
+    margin-top: 0.6rem;
+  }
+
+  .bottom__middle img {
+    height: 3rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .bottom__middle p {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+
+  .bottom__bottom {
+    height: 8rem;
+  }
 }
 
 /* IPAD MINI (LANDSCAPE) */
 @media only screen and (min-width: 1023px) and (orientation: landscape) {
+  .contact {
+    height: 100vh;
+    padding-bottom: 0;
+    padding-top: var(--padding-l);
+  }
+
+  .contact__content {
+    padding-left: var(--padding-m);
+    padding-right: var(--padding-m);
+  }
+
+  .content__top h2 {
+    font-size: 5rem;
+    line-height: 5rem;
+    margin-bottom: 2rem;
+  }
+
+  .content__top p {
+    width: 70%;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+  }
+
+  .bottom__top {
+    margin-top: 2rem;
+  }
+
+  .bottom__top p,
+  a {
+    font-size: 2rem;
+    line-height: 2.6rem;
+  }
+
+  svg {
+    height: 2rem;
+    margin-top: 0.6rem;
+  }
+
+  .bottom__middle img {
+    height: 3rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .bottom__middle p {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+
+  .bottom__bottom {
+    height: 8rem;
+  }
 }
 
 /* IPAD AIR (PORTRAIT) */
 @media only screen and (min-width: 769px) and (orientation: portrait) {
+  /* not needed */
 }
 
 /* IPAD AIR (LANDSCAPE) */
 @media only screen and (min-width: 1179px) and (orientation: landscape) {
+  /* not needed */
 }
 
 /* IPAD PRO (PORTRAIT) */
@@ -269,7 +374,78 @@ svg:hover path {
 
 /* IPAD PRO and MACBOOK PRO 14" (LANDSCAPE) */
 @media only screen and (min-width: 1365px) and (orientation: landscape) {
-  /* not needed */
+  .contact {
+    height: calc(100vh - 8rem);
+    padding-top: var(--padding-l);
+    background: var(--gradient-footer);
+  }
+  
+  .contact__content {
+    width: var(--content-width);
+  }
+  
+  .content__top h2 {
+    font-size: 5.8rem;
+    line-height: 5.4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .content__top p {
+    width: 56%;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+  
+  .content__bottom {
+    width: 100%;
+  }
+  
+  .bottom__top {
+    width: 100%;
+    margin-bottom: 10%;
+  }
+  
+  .bottom__top p,
+  a {
+    font-size: 2.2rem;
+    line-height: 3.4rem;
+  }
+  
+  svg {
+    height: 2.4rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.6rem;
+  }
+  
+  .bottom__middle {
+    width: 100%;
+  }
+  
+  .bottom__middle img {
+    height: 4.5rem;
+    margin-bottom: 0.6rem;
+  }
+  
+  .bottom__middle p {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+  }
+  
+  .bottom__bottom {
+    height: 8rem;
+  }
+  
+  .bottom__bottom p {
+    font-size: 1.4rem;
+  }
+  
+  .backToTop__link {
+    font-size: 1.4rem;
+  }
+  
+  .backToTop__link:hover {
+    color: var(--white);
+  }
 }
 
 /* MONITORS (LANDSCAPE) */
