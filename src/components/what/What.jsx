@@ -14,7 +14,7 @@ export function What() {
         <h2>What We Offer</h2>
         <div className={style.content__left}>
           <div className={style.left__text}>
-            <img src={logo} alt="" />
+            <img src={logo} alt="" loading="eager" />
             <p>01</p>
             <h3>Introduction to Programming</h3>
             <p>
@@ -23,15 +23,15 @@ export function What() {
             </p>
           </div>
           <div className={style.left__img}>
-            <img src={one} alt="" />
+            <img src={one} alt="" loading="eager" />
           </div>
         </div>
         <div className={style.content__right}>
           <div className={style.right__img}>
-            <img src={two} alt="" />
+            <img src={two} alt="" loading="eager" />
           </div>
           <div className={style.right__text}>
-            <img src={logo} alt="" />
+            <img src={logo} alt="" loading="eager" />
             <p>02</p>
             <h3>Web Development</h3>
             <p>
@@ -44,7 +44,7 @@ export function What() {
         </div>
         <div className={style.content__left}>
           <div className={style.left__text}>
-            <img src={logo} alt="" />
+            <img src={logo} alt="" loading="eager" />
             <p>03</p>
             <h3>Mobile App Development</h3>
             <p>
@@ -53,15 +53,15 @@ export function What() {
             </p>
           </div>
           <div className={style.left__img}>
-            <img src={three} alt="" />
+            <img src={three} alt="" loading="eager" />
           </div>
         </div>
         <div className={style.content__right}>
           <div className={style.right__img}>
-            <img src={four} alt="" />
+            <img src={four} alt="" loading="eager" />
           </div>
           <div className={style.right__text}>
-            <img src={logo} alt="" />
+            <img src={logo} alt="" loading="eager" />
             <p>04</p>
             <h3>Full-Stack Development</h3>
             <p>
@@ -72,7 +72,7 @@ export function What() {
         </div>
         <div className={style.content__left}>
           <div className={style.left__text}>
-            <img src={logo} alt="" />
+            <img src={logo} alt="" loading="eager" />
             <p>05</p>
             <h3>Database Management</h3>
             <p>
@@ -81,7 +81,7 @@ export function What() {
             </p>
           </div>
           <div className={style.left__img}>
-            <img src={five} alt="" />
+            <img src={five} alt="" loading="eager" />
           </div>
         </div>
         <div className={style.content__right}>
@@ -89,7 +89,7 @@ export function What() {
             <img src={six} alt="" />
           </div>
           <div className={style.right__text}>
-            <img src={logo} alt="" />
+            <img src={logo} alt="" loading="eager" />
             <p>06</p>
             <h3>DevOps and Agile Practices</h3>
             <p>
