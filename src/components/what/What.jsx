@@ -3,7 +3,7 @@ import logo from './../../assets/images/navbar-logo.svg';
 import one from './../../assets/images/what-images/what-01.jpeg';
 import two from './../../assets/images/what-images/what-02.jpeg';
 import six from './../../assets/images/what-images/what-06.jpeg';
-import four from './../../assets/images/what-images/what-04.jpeg';
+import four from './../../assets/images/what-images/what-04.png';
 import five from './../../assets/images/what-images/what-05.jpeg';
 import three from './../../assets/images/what-images/what-03.jpeg';
 
