@@ -33,6 +33,7 @@ html {
   width: 100vw;
   height: 100vh;
   cursor: default;
+  background: var(--black);
 }
 
 *,
