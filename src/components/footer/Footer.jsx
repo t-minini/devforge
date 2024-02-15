@@ -14,9 +14,7 @@ export function Footer() {
           <p>
             Whether you're aiming to build a career as a software developer or
             seeking to enhance your existing skills, devForge's software
-            development training programs are the perfect launchpad. Join us
-            today and embark on a transformative learning experience that will
-            set you on the path to success.
+            development training programs are the perfect launchpad.
           </p>
         </div>
         <div className={style.content__bottom}>
