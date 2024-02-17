@@ -29,7 +29,7 @@
 .bottom__top {
   width: 100%;
   display: flex;
-  margin-bottom: 10%;
+  margin-bottom: 3%;
   flex-direction: column;
 }
 
@@ -166,6 +166,7 @@ svg:hover path {
 /* SMARTPHONES - SHORTER SCREENS (LANDSCAPE) */
 @media only screen and (min-width: 665px) and (orientation: landscape) {
   .contact {
+    height: 100vh;
     padding-bottom: 0;
     height: fit-content;
     padding-top: var(--padding-m);
@@ -239,7 +240,7 @@ svg:hover path {
 /* IPAD MINI (PORTRAIT) */
 @media only screen and (min-width: 767px) and (orientation: portrait) {
   .contact {
-    height: 100vh;
+    height: calc(100dvh - 8rem);
     padding-bottom: 0;
     padding-top: var(--padding-l);
   }
@@ -302,8 +303,8 @@ svg:hover path {
 /* IPAD MINI (LANDSCAPE) */
 @media only screen and (min-width: 1023px) and (orientation: landscape) {
   .contact {
-    height: 100vh;
     padding-bottom: 0;
+    height: calc(100dvh - 8rem);
     padding-top: var(--padding-l);
   }
 
@@ -381,8 +382,6 @@ svg:hover path {
 @media only screen and (min-width: 1365px) and (orientation: landscape) {
   .contact {
     height: calc(100vh - 8rem);
-    padding-top: var(--padding-l);
-    background: var(--gradient-footer);
   }
   
   .contact__content {
@@ -407,7 +406,6 @@ svg:hover path {
   
   .bottom__top {
     width: 100%;
-    margin-bottom: 10%;
   }
   
   .bottom__top p,
