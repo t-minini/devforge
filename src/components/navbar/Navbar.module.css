@@ -68,16 +68,10 @@
 
 /* SMARTPHONES - SHORTER SCREENS (PORTRAIT) */
 @media only screen and (max-width: 480px) and (orientation: portrait) {
-  .navbar {
-    /* display: none; */
-  }
 }
 
 /* SMARTPHONES - SHORTER SCREENS (LANDSCAPE) */
 @media only screen and (min-width: 665px) and (orientation: landscape) {
-  .navbar {
-    /* display: none; */
-  }
 }
 
 /* SMARTPHONES - TALLER SCREENS (PORTRAIT) */
@@ -130,7 +124,7 @@
 }
 
 .hamburger_menu.active .hamburger_line:nth-child(2) {
-  transform: scaleX(0); /* Hide the middle line for X shape */
+  transform: scaleX(0);
 }
 
 .hamburger_menu.active .hamburger_line:nth-child(3) {
