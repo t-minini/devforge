@@ -19,6 +19,15 @@
   justify-content: space-between;
 }
 
+.content__logo {
+  display: flex;
+  align-items: center;
+}
+
+.content__logo img {
+  height: 3.5rem;
+}
+
 .navbar__links {
   display: flex;
   justify-content: space-between;
@@ -99,6 +108,7 @@
 @media only screen and (min-width: 843px) and (orientation: landscape) {
   /* not needed */
 }
+
 /* SMARTPHONES - (MENU HAMBURGER) */
 @media only screen and (max-width: 767px) {
   .navbar {
@@ -164,10 +174,18 @@
 
 /* IPAD MINI (PORTRAIT) */
 @media only screen and (min-width: 767px) and (orientation: portrait) {
+  .navbar__content {
+    width: 100%;
+    padding: 0 3rem;
+  }
 }
 
 /* IPAD MINI (LANDSCAPE) */
 @media only screen and (min-width: 1023px) and (orientation: landscape) {
+  .navbar__content {
+    width: 100%;
+    padding: 0 3rem;
+  }
 }
 
 /* IPAD AIR (PORTRAIT) */
@@ -185,7 +203,10 @@
 
 /* IPAD PRO and MACBOOK PRO 14" (LANDSCAPE) */
 @media only screen and (min-width: 1365px) and (orientation: landscape) {
-  /* not needed */
+  .navbar__content {
+    padding: 0;
+    width: var(--content-width);
+  }
 }
 
 /* MONITORS (LANDSCAPE) */
