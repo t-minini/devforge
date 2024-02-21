@@ -241,7 +241,7 @@ svg:hover path {
 @media only screen and (min-width: 767px) and (orientation: portrait) {
   .contact {
     padding-bottom: 0;
-    height: calc(100dvh - 8rem);
+    height: calc(100vh - 7rem);
     padding-top: var(--padding-l);
   }
 
@@ -304,7 +304,7 @@ svg:hover path {
 @media only screen and (min-width: 1023px) and (orientation: landscape) {
   .contact {
     padding-bottom: 0;
-    height: calc(100dvh - 8rem);
+    height: calc(100vh - 7rem);
     padding-top: var(--padding-l);
   }
 
@@ -381,7 +381,7 @@ svg:hover path {
 /* IPAD PRO and MACBOOK PRO 14" (LANDSCAPE) */
 @media only screen and (min-width: 1365px) and (orientation: landscape) {
   .contact {
-    height: calc(100vh - 8rem);
+    height: calc(100vh - 7rem);
   }
   
   .contact__content {
