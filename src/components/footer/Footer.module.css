@@ -105,7 +105,7 @@ svg:hover path {
   .contact {
     height: 100vh;
     padding-bottom: 0;
-    padding-top: var(--padding-m);
+    padding-top: 5rem;
   }
 
   .contact__content {
@@ -168,8 +168,8 @@ svg:hover path {
   .contact {
     height: 100vh;
     padding-bottom: 0;
+    padding-top: 5rem;
     height: fit-content;
-    padding-top: var(--padding-m);
   }
 
   .contact__content {
@@ -240,8 +240,8 @@ svg:hover path {
 /* IPAD MINI (PORTRAIT) */
 @media only screen and (min-width: 767px) and (orientation: portrait) {
   .contact {
-    height: calc(100dvh - 8rem);
     padding-bottom: 0;
+    height: calc(100dvh - 8rem);
     padding-top: var(--padding-l);
   }
 

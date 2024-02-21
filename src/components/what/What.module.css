@@ -95,8 +95,8 @@
 /* SMARTPHONES - SHORTER SCREENS (PORTRAIT) */
 @media only screen and (max-width: 480px) and (orientation: portrait) {
   .what {
-    padding-top: var(--padding-m);
-    padding-bottom: var(--padding-m);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .what__content {
@@ -194,8 +194,8 @@
 /* SMARTPHONES - SHORTER SCREENS (LANDSCAPE) */
 @media only screen and (min-width: 665px) and (orientation: landscape) {
   .what {
-    padding-top: var(--padding-m);
-    padding-bottom: var(--padding-m);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .what__content {

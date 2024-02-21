@@ -57,8 +57,8 @@
 /* SMARTPHONES - SHORTER SCREENS (PORTRAIT) */
 @media only screen and (max-width: 480px) and (orientation: portrait) {
   .why {
-    padding-top: var(--padding-m);
-    padding-bottom: var(--padding-m);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .why__content {
@@ -98,8 +98,8 @@
 /* SMARTPHONES - SHORTER SCREENS (LANDSCAPE) */
 @media only screen and (min-width: 665px) and (orientation: landscape) {
   .why {
-    padding-top: var(--padding-m);
-    padding-bottom: var(--padding-m);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .why__content {
