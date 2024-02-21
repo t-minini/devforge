@@ -13,7 +13,7 @@ export function Navbar() {
   return (
     <nav className={style.navbar}>
       <div className={style.navbar__content}>
-        <Link to="hero" spy={true} smooth={true}>
+        <Link to="hero" spy={true} smooth={true} className={style.content__logo}>
           <img src={logo} alt="devForge logo" />
         </Link>
         <div className={`${style.navbar__links} ${isOpen ? style.show : ''}`}>
