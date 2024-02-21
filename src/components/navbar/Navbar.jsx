@@ -21,7 +21,7 @@ export function Navbar() {
             to="why"
             spy={true}
             title="why"
-            offset={-80}
+            offset={-70}
             smooth={true}
             activeClass={style.navbar__active}
             onClick={() => setIsOpen(false)}
@@ -32,7 +32,7 @@ export function Navbar() {
             to="who"
             spy={true}
             title="who"
-            offset={-80}
+            offset={-70}
             smooth={true}
             activeClass={style.navbar__active}
             onClick={() => setIsOpen(false)}
@@ -43,7 +43,7 @@ export function Navbar() {
             to="what"
             spy={true}
             title="what"
-            offset={-80}
+            offset={-70}
             smooth={true}
             activeClass={style.navbar__active}
             onClick={() => setIsOpen(false)}
@@ -53,7 +53,7 @@ export function Navbar() {
           <Link
             spy={true}
             to="mission"
-            offset={-80}
+            offset={-70}
             smooth={true}
             title="mission"
             activeClass={style.navbar__active}
@@ -64,7 +64,7 @@ export function Navbar() {
           <Link
             spy={true}
             to="footer"
-            offset={-80}
+            offset={-70}
             smooth={true}
             title="contact"
             activeClass={style.navbar__active}
