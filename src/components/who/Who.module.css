@@ -135,6 +135,47 @@
   /* not needed */
 }
 
+/* SMARTPHONES - SHORTER SCREENS (PORTRAIT) */
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+  .who {
+    padding-top: var(--padding-l);
+    padding-bottom: var(--padding-l);
+  }
+
+  .who__content {
+    padding-left: var(--padding-m);
+    padding-right: var(--padding-m);
+  }
+
+  .who__content h2 {
+    font-size: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+
+  .who__card h3 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .cards__container {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .cards__container hr {
+    margin: 0;
+    width: 14rem;
+    height: 0.1rem;
+  }
+
+  .who__card p {
+    width: 60%;
+    font-size: 1.6rem;
+  }
+}
+
 /* IPAD MINI (PORTRAIT) */
 @media only screen and (min-width: 767px) and (orientation: portrait) {
   .who {
